@@ -40,8 +40,8 @@ class SubmitViewController: UIViewController {
 		status.font = UIFont.preferredFont(forTextStyle: .title1)
 		status.numberOfLines = 0
 		status.textAlignment = .center
-
-		spinner = UIActivityIndicatorView(style: .whiteLarge)
+		
+		spinner = UIActivityIndicatorView(style: .large)
 		spinner.translatesAutoresizingMaskIntoConstraints = false
 		spinner.hidesWhenStopped = true
 		spinner.startAnimating()
